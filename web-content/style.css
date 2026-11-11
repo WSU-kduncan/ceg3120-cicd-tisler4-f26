@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e2a44;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background-color: #ff6b35;
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #e5531f;
+}
+
+/*
+I used Claude from Anthropic to make my website. These are the two prompts i used to generate it:
+- “if you were to make a super simple website what would that look like”
+- “change it to a place with a button that says click me, and the click me changes pages to a button to go back”
+*/
