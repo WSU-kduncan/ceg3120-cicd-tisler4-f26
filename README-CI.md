@@ -16,3 +16,11 @@ I used `docker build -t armedpotatochip/button-site:latest .` within the web-con
 
 ### Running Container
 I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:latest` within the web-contents folder of the repo
+
+
+# Part 2
+
+## Configuring GitHub Repository Secrets
+- To create the PAT you must go to your docker account setting on docker and under personal accesss token make one with read and write settings
+- To create Github Action Secrets you must go to the repos settings and in there there under Secrets and Variables you can click actions to make Those action secrets
+- The secrets used for this project are : DOCKER_USERNAME, which is my docker user; DOCKER_TOKEN, which is my PAT token created
