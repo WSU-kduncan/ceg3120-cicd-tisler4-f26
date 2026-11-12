@@ -10,3 +10,9 @@ Caleb Tisler
 
 ### Dockerfile
 - [Dockerfile](Dockerfile) : this docker file contains `FROM httpd:2.4` which is where the image builds from and `COPY ./ /usr/local/apache2/htdocs/` which copies everything in [web-content](web-content/) into `/usr/local/apache2/htdocs/`.
+
+### Building Image
+I used `docker build -t armedpotatochip/button-site:latest .` within the web-contents folder of the repo
+
+### Running Container
+I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:latest` within the web-contents folder of the repo
