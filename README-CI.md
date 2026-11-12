@@ -9,3 +9,4 @@ Caleb Tisler
 - [style.css](web-content/style.css) : this is the link to the websites style sheet that formats the design of the website
 
 ### Dockerfile
+- [Dockerfile](Dockerfile) : this docker file contains `FROM httpd:2.4` which is where the image builds from and `COPY ./ /usr/local/apache2/htdocs/` which copies everything in [web-content](web-content/) into `/usr/local/apache2/htdocs/`.
