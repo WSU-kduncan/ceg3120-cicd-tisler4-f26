@@ -77,7 +77,9 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 
 # Images
 ### 1) Local run - docker ps showing your container running, and a browser showing both of your pages with your CSS applied.
-![](images/)
+![image_1.1](images/image_1.1)
+![image_1.2](images/image_1.2)
+![image_1.3](images/image_1.3)
 
 ### 2) Repository secrets - your repository's Actions secrets page showing DOCKER_USERNAME and DOCKER_TOKEN. Secret values are not displayed - never show or commit them.
 ![](images/)
