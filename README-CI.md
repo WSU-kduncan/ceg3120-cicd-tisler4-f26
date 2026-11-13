@@ -95,7 +95,8 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 ![image_5.1](images/image_5.1.png)
 
 ### 6) Tag trigger - git tag -l output, and a successful workflow run with a tag as its event.
-![](images/)
+![image_6.1](images/image_6.1.png)
+![image_6.2](images/image_6.2.png)
 
 ### 7) Tag negative test - push a commit without a tag, and show the commit and that no workflow run started.
 ![](images/)
