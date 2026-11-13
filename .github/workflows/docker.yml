@@ -2,8 +2,8 @@ name: tisler_cicd
 
 on:
   push:
-    branches: 
-      - main
+    tags:
+      - 'v*.*.*'
 jobs:
   docker:
     runs-on: ubuntu-latest
@@ -14,6 +14,15 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
+      - 
+        name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v6
+        with:
+          images: armedpotato/button-site
+          tags: |
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
       -
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v4
@@ -22,5 +31,5 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: armedpotato/button-site:latest
+          tags: ${{ steps.meta.outputs.tags }}
 
