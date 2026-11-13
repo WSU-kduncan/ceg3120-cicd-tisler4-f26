@@ -1,5 +1,15 @@
 Caleb Tisler
 
+# Project Description And Diagram
+## Diagram
+
+## Documentation
+
+### Continuous Integration Project Overview
+
+### Resources Section
+
+
 # Part 1
 
 ## Dockerfile & Building Images
