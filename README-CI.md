@@ -2,7 +2,7 @@ Caleb Tisler
 
 # Project Description And Diagram
 ## Diagram
-
+![diagram](images/diagram.png)
 ## Documentation
 ### Continuous Integration Project Overview
 - The goal of this project is to create a workflow to automaticly builds a new image of my website on Docker when i push a new tagged version on GitHub
@@ -75,3 +75,6 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 - you can see the image on DockerHub working when you run both versions of the image using different versions at the same time
 - link to docker repo [armedpotato/button-site](https://hub.docker.com/r/armedpotato/button-site)
 
+# Images
+
+![](images/)
