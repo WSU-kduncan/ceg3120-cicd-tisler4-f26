@@ -57,3 +57,9 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
   - The repo secrets would need to be added to the new repo with ist of PAT and docker username
 
 [Workflow at Part 3](.github/workflows/docker.yml)
+
+## Testing and Validation
+- you can see that the workflow did its task by looking in the actions tab and checking for the green checkmark
+- you can see the image on DockerHub working when you run both versions of the image using different versions at the same time
+- link to docker repo [armedpotato/button-site](https://hub.docker.com/r/armedpotato/button-site)
+
