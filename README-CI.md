@@ -92,7 +92,7 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 ![image_4.2](images/image_4.2.png)
 
 ### 5) Change to image - change visible text on your site and push it to main. After the workflow succeeds, pull and run the new image and show the change in a browser.
-![](images/)
+![image_5.1](images/image_5.1.png)
 
 ### 6) Tag trigger - git tag -l output, and a successful workflow run with a tag as its event.
 ![](images/)
