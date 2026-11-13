@@ -36,3 +36,4 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
   - The workflow tags would be different for the image
   - The repo secrets would need to be added to the new repo with ist of PAT and docker username
  
+[Workflow at Part 2](https://github.com/WSU-kduncan/ceg3120-cicd-tisler4-f26/blob/40e9be54d0c932c1aad8f518ffba01c8f54d0cf5/README-CI.md)
