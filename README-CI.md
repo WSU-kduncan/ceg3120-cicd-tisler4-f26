@@ -76,5 +76,32 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 - link to docker repo [armedpotato/button-site](https://hub.docker.com/r/armedpotato/button-site)
 
 # Images
+### 1) Local run - docker ps showing your container running, and a browser showing both of your pages with your CSS applied.
+![](images/)
 
+### 2) Repository secrets - your repository's Actions secrets page showing DOCKER_USERNAME and DOCKER_TOKEN. Secret values are not displayed - never show or commit them.
+![](images/)
+
+### 3) Main trigger - a successful workflow run from a push to main, with the commit SHA visible.
+![](images/)
+
+### 4) Branch negative test - push a commit to a branch other than main, and show the commit on that branch and that no workflow run started.
+![](images/)
+
+### 5) Change to image - change visible text on your site and push it to main. After the workflow succeeds, pull and run the new image and show the change in a browser.
+![](images/)
+
+### 6) Tag trigger - git tag -l output, and a successful workflow run with a tag as its event.
+![](images/)
+
+### 7) Tag negative test - push a commit without a tag, and show the commit and that no workflow run started.
+![](images/)
+
+### 8) Tag set - your DockerHub repository's tags showing latest, major, and major.minor.
+![](images/)
+
+### 9) Two releases - after your second release (for example, v1.0.0 then v1.1.0), your DockerHub tags and digests showing that 1 and latest moved to the new image while 1.0 stayed on the old image.
+![](images/)
+
+### 10) Rollback - run containers from your major.minor tags (for example, :1.0 and :1.1) and show in a browser that each serves its version of the site.
 ![](images/)
