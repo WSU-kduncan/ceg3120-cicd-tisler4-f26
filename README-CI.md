@@ -99,7 +99,8 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 ![image_6.2](images/image_6.2.png)
 
 ### 7) Tag negative test - push a commit without a tag, and show the commit and that no workflow run started.
-![](images/)
+![image_7.1](images/image_7.1.png)
+![image_7.2](images/image_7.2.png)
 
 ### 8) Tag set - your DockerHub repository's tags showing latest, major, and major.minor.
 ![](images/)
