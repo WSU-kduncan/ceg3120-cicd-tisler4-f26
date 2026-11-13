@@ -55,4 +55,5 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 - if this workflow is used in a different repo the you would need to change:
   - The workflow tags would be different for the image
   - The repo secrets would need to be added to the new repo with ist of PAT and docker username
-[Workflow at Part 3]
+
+[Workflow at Part 3](.github/workflows/docker.yml)
