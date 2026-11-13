@@ -85,7 +85,7 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 ![image_2.1](images/image_2.1.png)
 
 ### 3) Main trigger - a successful workflow run from a push to main, with the commit SHA visible.
-![](images/)
+![image_3.1](images/image_3.1.png)
 
 ### 4) Branch negative test - push a commit to a branch other than main, and show the commit on that branch and that no workflow run started.
 ![](images/)
