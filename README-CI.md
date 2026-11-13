@@ -26,4 +26,13 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 - The secrets used for this project are : DOCKER_USERNAME, which is my docker user; DOCKER_TOKEN, which is my PAT token created
 
 ## CI with GitHub Actions
--
+- When a commit is pushed on main the workflow is ran
+
+- The first step is "Login to Docker Hub" which uses `docker/login-action@v41` and the secrets DOCKER_USERNAME and DOCKER_TOKEN to log into docker hub
+-  The next step is "Set up Docker Buildx" which uses `docker/setup-buildx-action@v4` to set up the building of the image
+-  The Last step is "Build an Push" which uses `docker/build-push-action@v7` to build the image and push it to docker hub
+
+- if this workflow is used in a different repo the you would need to change:
+  - The workflow tags would be different for the image
+  - The repo secrets would need to be added to the new repo with ist of PAT and docker username
+ 
