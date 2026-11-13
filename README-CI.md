@@ -88,7 +88,8 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 ![image_3.1](images/image_3.1.png)
 
 ### 4) Branch negative test - push a commit to a branch other than main, and show the commit on that branch and that no workflow run started.
-![](images/)
+![image_4.1](images/image_4.1.png)
+![image_4.2](images/image_4.2.png)
 
 ### 5) Change to image - change visible text on your site and push it to main. After the workflow succeeds, pull and run the new image and show the change in a browser.
 ![](images/)
