@@ -3,7 +3,7 @@ name: tisler_cicd
 on:
   push:
     branches: 
-      -main
+      - main
 jobs:
   docker:
     runs-on: ubuntu-latest
