@@ -22,5 +22,5 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: armedpotatochip/button-site:latest
+          tags: armedpotato/button-site:latest
 
