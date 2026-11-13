@@ -42,3 +42,17 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 - one a recent push to main, in the actions tab, check the time stamp of that push an the green check mark. On Docker Hub you can check the repositories tab and match the time stamps to make sure the workflow did its task.
 - I pulled and ran the image with `docker run -d -p 8080:80 armedpotato/button-site:latest` since i did not find the image locally it pulled from docker hub.
 - link to docker repo [armedpotato/button-site](https://hub.docker.com/r/armedpotato/button-site)
+
+# Part 3
+## Generating tags
+- To see your tags in your git repository use `git tags`
+- To generate a tag in a git repository use `git tag -a v1.0.0`
+- To push a tag to Github from the git repo use `git push origin v1.0.0`
+
+## Semantic Versioning Container Images with GitHub Actions
+- The workflow will now one run if the commit has a tag with it
+- the workflow step added was "Docker meta" that uses the `docker/metadata-action@v6` with will use the git tag to generate the images tag
+- if this workflow is used in a different repo the you would need to change:
+  - The workflow tags would be different for the image
+  - The repo secrets would need to be added to the new repo with ist of PAT and docker username
+[Workflow at Part 3]
