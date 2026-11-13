@@ -39,3 +39,6 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 [Workflow at Part 2](https://github.com/WSU-kduncan/ceg3120-cicd-tisler4-f26/blob/40e9be54d0c932c1aad8f518ffba01c8f54d0cf5/README-CI.md)
 
 ### Testing & Validating
+- one a recent push to main, in the actions tab, check the time stamp of that push an the green check mark. On Docker Hub you can check the repositories tab and match the time stamps to make sure the workflow did its task.
+- I pulled and ran the image with `docker run -d -p 8080:80 armedpotato/button-site:latest` since i did not find the image locally it pulled from docker hub.
+- 
