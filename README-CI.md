@@ -109,4 +109,6 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 ![image_8.1_9.1](images/image_8.1_9.1.png)
 
 ### 10) Rollback - run containers from your major.minor tags (for example, :1.0 and :1.1) and show in a browser that each serves its version of the site.
-![](images/)
+![image_10.1](images/image_10.1.png)
+![image_10.2](images/image_10.2.png)
+![image_10.3](images/image_10.3.png)
