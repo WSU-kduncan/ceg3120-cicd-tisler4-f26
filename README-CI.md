@@ -8,7 +8,7 @@ Caleb Tisler
 - The goal of this project is to create a workflow to automaticly builds a new image of my website on Docker when i push a new tagged version on GitHub
 - The tools used are:
   - GitHub, to store the workflow and website code, and use it to tag and push versions of the website with GitHub actions that run the workflow.
-  - Docker and DockerHub, to make the website iamge using the Dockerfile and to store the image versions   
+  - Docker and DockerHub, to make the website image using the Dockerfile and to store the image versions   
 ### Resources Section
 
 
