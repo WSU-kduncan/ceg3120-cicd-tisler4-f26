@@ -103,10 +103,10 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 ![image_7.2](images/image_7.2.png)
 
 ### 8) Tag set - your DockerHub repository's tags showing latest, major, and major.minor.
-![image_8.1_9.1](images/image_8.1_9.1)
+![image_8.1_9.1](images/image_8.1_9.1.png)
 
 ### 9) Two releases - after your second release (for example, v1.0.0 then v1.1.0), your DockerHub tags and digests showing that 1 and latest moved to the new image while 1.0 stayed on the old image.
-![image_8.1_9.1](images/image_8.1_9.1)
+![image_8.1_9.1](images/image_8.1_9.1.png)
 
 ### 10) Rollback - run containers from your major.minor tags (for example, :1.0 and :1.1) and show in a browser that each serves its version of the site.
 ![](images/)
