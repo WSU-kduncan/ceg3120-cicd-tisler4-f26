@@ -11,8 +11,10 @@ Caleb Tisler
   - Docker and DockerHub, to make the website image using the Dockerfile and to store the image versions   
 ### Resources Section
 [Sample workflow](https://github.com/pattonsgirl/CEG3120/tree/main/Projects/Project6/sample-workflows)
+
 [GitHub Actions](https://github.com/marketplace/actions/build-and-push-docker-images)
-[GitHub Tags]([https://github.com/WSU-kduncan/ceg3120-cicd-tisler4-f26/blob/40e9be54d0c932c1aad8f518ffba01c8f54d0cf5/README-CI.md](https://docs.docker.com/build/ci/github-actions/manage-tags-labels/))
+
+[GitHub Tags]([https://github.com/WSU-kduncan/ceg3120-cicd-tisler4-f26/blob/40e9be54d0c932c1aad8f518ffba01c8f54d0cf5/README-CI.md](https://docs.docker.com/build/ci/github-actions/manage-tags-labels/](https://docs.docker.com/build/ci/github-actions/manage-tags-labels/))
 
 # Part 1
 
