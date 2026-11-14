@@ -76,39 +76,49 @@ I used `docker run -d --name buttontest -p 8080:80 armedpotatochip/button-site:l
 - link to docker repo [armedpotato/button-site](https://hub.docker.com/r/armedpotato/button-site)
 
 # Images
-### 1) Local run - docker ps showing your container running, and a browser showing both of your pages with your CSS applied.
+## 1) Local run
 ![image_1.1](images/image_1.1.png)
 ![image_1.2](images/image_1.2.png)
 ![image_1.3](images/image_1.3.png)
+- These images show that the container is running with both .html's showing on localhost.
 
-### 2) Repository secrets - your repository's Actions secrets page showing DOCKER_USERNAME and DOCKER_TOKEN. Secret values are not displayed - never show or commit them.
+## 2) Repository secrets
 ![image_2.1](images/image_2.1.png)
+- This image shows that i have both secrets DOCKER_USERNAME and DOCKER_TOKEN.
 
-### 3) Main trigger - a successful workflow run from a push to main, with the commit SHA visible.
+## 3) Main trigger
 ![image_3.1](images/image_3.1.png)
+- This image shows the workflow running successfully form a push from main. 
 
-### 4) Branch negative test - push a commit to a branch other than main, and show the commit on that branch and that no workflow run started.
+## 4) Branch negative test
 ![image_4.1](images/image_4.1.png)
 ![image_4.2](images/image_4.2.png)
+- These images show that a commit was made on another branch, and the Actions tab not started the workflow for it.
 
-### 5) Change to image - change visible text on your site and push it to main. After the workflow succeeds, pull and run the new image and show the change in a browser.
+## 5) Change to image
 ![image_5.1](images/image_5.1.png)
+- This image shows that change that was made to the web-contents showing on the new version of the webpage from the workflow.
 
-### 6) Tag trigger - git tag -l output, and a successful workflow run with a tag as its event.
+## 6) Tag trigger 
 ![image_6.1](images/image_6.1.png)
 ![image_6.2](images/image_6.2.png)
+- These images show the git tags and the workflow running with the tags
 
-### 7) Tag negative test - push a commit without a tag, and show the commit and that no workflow run started.
+## 7) Tag negative test 
 ![image_7.1](images/image_7.1.png)
 ![image_7.2](images/image_7.2.png)
+- These images show that a commit was made without a tag and that Actions has not run the workflow for it.
 
-### 8) Tag set - your DockerHub repository's tags showing latest, major, and major.minor.
+## 8) Tag set
 ![image_8.1_9.1](images/image_8.1_9.1.png)
+- This image shows that the DockerHub repository's tags show a latest, a major, and a major.minor tag.
 
-### 9) Two releases - after your second release (for example, v1.0.0 then v1.1.0), your DockerHub tags and digests showing that 1 and latest moved to the new image while 1.0 stayed on the old image.
+## 9) Two releases
 ![image_8.1_9.1](images/image_8.1_9.1.png)
+- This image also show that after i had release a second version that the 1 and lastest moved to the new image.
 
-### 10) Rollback - run containers from your major.minor tags (for example, :1.0 and :1.1) and show in a browser that each serves its version of the site.
+## 10) Rollback 
 ![image_10.1](images/image_10.1.png)
 ![image_10.2](images/image_10.2.png)
 ![image_10.3](images/image_10.3.png)
+- These images show that the differently tagged versions of the website show the the newest version and the older version at the same time. 
