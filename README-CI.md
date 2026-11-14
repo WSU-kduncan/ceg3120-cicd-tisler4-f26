@@ -14,7 +14,7 @@ Caleb Tisler
 
 [GitHub Actions](https://github.com/marketplace/actions/build-and-push-docker-images)
 
-[DockerHub Tags](https://docs.docker.com/build/ci/github-actions/manage-tags-labels/)
+[Dockerdocs Tags](https://docs.docker.com/build/ci/github-actions/manage-tags-labels/)
 
 # Part 1
 
